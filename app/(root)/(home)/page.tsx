@@ -17,11 +17,11 @@ const Page = async ({ searchParams }: Props) => {
     page: '1'
   })
 
-  console.log(resources)
+  // console.log(resources)
 
   const resourcesPlaylist = await getResourcesPlaylist();
   
-  console.log(resourcesPlaylist)
+  // console.log(resourcesPlaylist)
 
   return (
     <main className="flex-center paddings mx-auto w-full max-w-screen-2xl flex-col">
